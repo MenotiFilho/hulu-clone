@@ -11,7 +11,7 @@ export default {
 	},
 	fetchActionMovie: {
 		title: "Action",
-		url: `/discover/movie/action?api_key=${API_KEY}&with_genres=28`,
+		url: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
 	},
 	fetchComedyMovie: {
 		title: "Comedy",
